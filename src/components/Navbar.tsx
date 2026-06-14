@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const categories = [
@@ -9,7 +9,6 @@ const categories = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const navigate = useNavigate();
 
   return (
     <>
