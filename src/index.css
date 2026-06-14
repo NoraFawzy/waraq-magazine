@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink:       #1C1C1E;
+  --ink-soft:  #5A5A6A;
+  --paper:     #F7F4EF;
+  --paper-alt: #EDEAE3;
+  --olive:     #3D5A44;
+  --olive-dim: #2C4232;
+  --gold:      #B8954A;
+  --gold-lt:   #E8D5A3;
+  --radius:    12px;
+}
+
+html { direction: rtl; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+}
+
+h1, h2, h3 { font-family: 'Amiri', serif; line-height: 1.3; }
